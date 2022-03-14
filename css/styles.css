@@ -204,6 +204,10 @@ ul {
 	border-left: 4px solid #00A2C7;
 }
 
+.white-border {
+	border-left: 4px solid #FFFFFF;
+}
+
 .bg-grey {
 	background: #F1E4FF;
 }
@@ -624,7 +628,18 @@ footer li a {
 	border-radius: 25px;
 	height: 380px;
 }
-
+.service_insurance_container .col-md-4 .card{
+	height: 480px;
+}
+.service_insurance_container .col-md-4 .card.text-center{
+	height: 200px;
+	border-radius: 0;
+	border-bottom: 7px solid #00A2C7;
+}
+.service_insurance_container .col-md-4 .card.text-center img{
+	width: 82px;
+	height: auto;
+}
 #accordion ul {
 	list-style: disc;
 }
@@ -691,11 +706,11 @@ footer li a {
 }
 
 .service_loan_section {
-	background-image: url('../img/rectangle.png');
+	/* background-image: url('../img/rectangle.png');
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-size: 30%;
-	background-color: #FFFFFF;
+	background-color: #FFFFFF; */
 }
 
 .service_loan_arrows {
@@ -777,7 +792,10 @@ footer li a {
 }
 
 #customer_feedback_carousel .card {
+	background: #FFFFFF;
 	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
 	border-radius: 20px;
 }
 

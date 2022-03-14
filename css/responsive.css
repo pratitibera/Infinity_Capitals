@@ -33,7 +33,7 @@
 		margin: 0!important;
 	}
 	.documents_section ul li {
-		font-size: 25px;
+		font-size: 17px;
 		padding: 7px 0px 7px 5px;
 	}
 	.service_advisory_container .row {
@@ -309,7 +309,7 @@
 	}
 	.service_home_loan_container {
 		height: 50vh;
-		margin-bottom: 1300px;
+		margin-bottom: 650px;
 	}
 	.service_personal_loan_section .card {
 		height: 245px;
