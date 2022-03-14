@@ -622,6 +622,7 @@ footer li a {
 	background: #FFFFFF;
 	box-shadow: 3px 4px 16px rgba(0, 0, 0, 0.25);
 	border-radius: 25px;
+	height: 380px;
 }
 
 #accordion ul {
@@ -855,4 +856,11 @@ footer li a {
 	top: 40%;
 	left: 30%;
 	z-index: 9;
+}
+
+.health_insurance_cards .card{
+	background: #FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+	border-radius: 22px;
+	height: 180px;
 }

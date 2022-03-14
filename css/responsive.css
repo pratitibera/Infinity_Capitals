@@ -58,6 +58,10 @@
 		top: -40%;
 		right: 0;
 	}
+	.phone_section iframe{
+		width: 700px;
+		height: 345px;
+	}
 }
 
 @media only screen and (min-width: 1400px) {
@@ -157,7 +161,7 @@
 		text-align: right;
 	}
 	.mt-250 {
-		margin-top: 1450px;
+		margin-top: 1600px;
 	}
 	/* Custom classes */
 	.nav-link {
@@ -309,5 +313,9 @@
 	}
 	.service_personal_loan_section .card {
 		height: 245px;
+	}
+	.phone_section iframe{
+		width: 280px;
+		height: 170px;
 	}
 }
