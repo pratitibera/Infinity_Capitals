@@ -628,18 +628,22 @@ footer li a {
 	border-radius: 25px;
 	height: 380px;
 }
-.service_insurance_container .col-md-4 .card{
+
+.service_insurance_container .col-md-4 .card {
 	height: 480px;
 }
-.service_insurance_container .col-md-4 .card.text-center{
+
+.service_insurance_container .col-md-4 .card.text-center {
 	height: 200px;
 	border-radius: 0;
 	border-bottom: 7px solid #00A2C7;
 }
-.service_insurance_container .col-md-4 .card.text-center img{
+
+.service_insurance_container .col-md-4 .card.text-center img {
 	width: 82px;
 	height: auto;
 }
+
 #accordion ul {
 	list-style: disc;
 }
@@ -876,16 +880,18 @@ footer li a {
 	z-index: 9;
 }
 
-.health_insurance_cards .card{
+.health_insurance_cards .card {
 	background: #FFFFFF;
 	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
 	border-radius: 22px;
 	height: 180px;
 }
-.health_insurance_cards .bco{
+
+.health_insurance_cards .bco {
 	text-transform: uppercase;
 }
-.taxation_card2{
+
+.taxation_card2 {
 	background: #FFFFFF;
 	border: 1px solid #10375C;
 	box-sizing: border-box;
@@ -894,22 +900,110 @@ footer li a {
 	height: 210px;
 }
 
-.taxation_card_img{
-	/* margin: auto; */
-	width: 70px;
-	height: 70px;
+.taxation_card_img {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
 	background-color: #0B3053;
 	border-radius: 50%;
 }
-.taxation_card img{
+
+.taxation_card img {
 	width: 50px;
-	height: auto;
+	margin: auto;
+	height: 50px;
 }
-.taxation_card h4{
+
+.taxation_card h4 {
 	text-transform: uppercase;
 	line-height: 1.5em;
 }
 
-.real_estate_section{
+.real_estate_section {
 	background: linear-gradient(0deg, rgba(244, 240, 240, 0.7), rgba(244, 240, 240, 0.7)), url(../img/real_estate5.jpg);
+}
+
+.values_section:nth-child(odd) {
+	background: #F4F0F0;
+}
+
+.values_section:nth-child(even) {
+	background: #FFFFFF;
+}
+
+.values_section img {
+	border-radius: 50%;
+	border: 8px solid rgba(0, 162, 199, 0.8);
+}
+
+.values_section:nth-child(even) .row,
+.careers_container:nth-child(even) .row {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.values_section .fo-26 {
+	color: #00A2C7;
+}
+
+.careers_header {
+	background: linear-gradient(93.73deg, rgba(16, 55, 92, 0.7) -57.22%, rgba(0, 162, 199, 0.7) 139.85%), url(../img/careers.jpg);
+	height: 100vh;
+}
+
+.careers_container:nth-child(odd) .col-md-7 {
+	background: linear-gradient(268deg, #10375C -70.92%, #00A2C7 137.44%);
+}
+
+.careers_container:nth-child(even) .col-md-7 {
+	background: linear-gradient(-268deg, #10375C -70.92%, #00A2C7 137.44%);
+}
+
+.careers_header2 {
+	height: 80vh;
+}
+
+.contact_form label {
+	color: #777777;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.contact_form input {
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.contact_form textarea {
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-sizing: border-box;
+	border-radius: 8px;
+	height: 200px;
+	resize: none;
+}
+
+.contact_button {
+	background: #10375C;
+	box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	padding: 10px 100px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.contact_section {
+	background: #FFFFFF;
+	border: 1px solid rgba(153, 153, 153, 0.35);
+	box-sizing: border-box;
+	box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.contact_section .fo-13 {
+	color: #00A2C7;
 }

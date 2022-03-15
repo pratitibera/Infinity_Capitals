@@ -58,9 +58,24 @@
 		top: -40%;
 		right: 0;
 	}
-	.phone_section iframe{
+	.phone_section iframe {
 		width: 700px;
 		height: 345px;
+	}
+	.careers_container:nth-child(odd) .career_abs_img {
+		position: absolute;
+		right: 1%;
+		bottom: 1%;
+		width: 355px;
+	}
+	.careers_container:nth-child(even) .career_abs_img {
+		position: absolute;
+		left: 1%;
+		bottom: 1%;
+		width: 355px;
+	}
+	.contact_section {
+		width: 600px;
 	}
 }
 
@@ -314,8 +329,21 @@
 	.service_personal_loan_section .card {
 		height: 245px;
 	}
-	.phone_section iframe{
+	.phone_section iframe {
 		width: 280px;
 		height: 170px;
+	}
+	.careers_container .col-md-3 {
+		background: #0B3053;
+	}
+	.contact_form {
+		margin-top: 150px!important;
+	}
+	.contact_section {
+		width: 100%;
+		margin-top: 500px;
+	}
+	.contact_section .col-4 {
+		padding: 0;
 	}
 }
