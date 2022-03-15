@@ -806,8 +806,8 @@ footer li a {
 }
 
 .service_home_loan_section {
-	background: linear-gradient(268deg, #10375C -70.92%, #00A2C7 137.44%);
-	height: 50vh;
+	/* background: linear-gradient(268deg, #10375C -70.92%, #00A2C7 137.44%);
+	height: 50vh; */
 }
 
 #service_home_loan_carousel .card {
@@ -882,6 +882,9 @@ footer li a {
 	border-radius: 22px;
 	height: 180px;
 }
+.health_insurance_cards .bco{
+	text-transform: uppercase;
+}
 .taxation_card2{
 	background: #FFFFFF;
 	border: 1px solid #10375C;
@@ -905,4 +908,8 @@ footer li a {
 .taxation_card h4{
 	text-transform: uppercase;
 	line-height: 1.5em;
+}
+
+.real_estate_section{
+	background: linear-gradient(0deg, rgba(244, 240, 240, 0.7), rgba(244, 240, 240, 0.7)), url(../img/real_estate5.jpg);
 }
